@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:14px;padding:0;margin:0;background:#cac4b4 url('imgs/bg.jpg') repeat-x; font-family:Arial, Helvetica, sans-serif;text-align:center;}
+ul,li{list-style:none;padding:0;margin:0;}
+img{border:none;}
+.clear{clear:both;}
+#content{width:846px;margin:0 auto;text-align:left;}
+#content #top{height:71px;}
+#content #top #logo{margin-top:15px;display:block;float:left;margin-left:5px;}
+a{color:#2b8990;}
+
+#main-menu{float:right;display:inline-block;margin-top:50px;z-index:999;}
+#main-menu li{float:left;}
+#main-menu li a{color:#fff;padding:3px 10px;font-size:12px;text-decoration:none;border-right:1px solid #fff;white-space: nowrap;display:block;}
+#main-menu li a:hover{background:#4b4f50}
+#main-menu li ul{margin: 0;padding: 0;position: absolute;visibility: hidden;margin-top:2px;width:163px;background:#cac4b4;}
+#main-menu li ul li{float:none;margin:0;padding:0;background:#cac4b4;}
+#main-menu li ul li a{background:#cac4b4;border:none;padding:5px 8px;color:#555;}
+#main-menu li ul li a:hover{background:#beb49b;}
+
+#banner{width:846px;height:349px;background:url('imgs/banner_shadow.gif') no-repeat;padding:4px;z-index:0;}
+
+#main{height:274px;}
+#main .col1,
+#main .col2,
+#main .col3{float:left;padding:10px;width:244px;}
+
+#main p{color:#434344;margin:0 0 10px;}
+#main h1{color:#2b8990;font-family:Helvetica, Arial;font-weight:normal;margin:0;font-size:27px;padding:0;}
+#main h2{color:#2b8990;font-family:Helvetica, Arial;font-weight:normal;margin:0 0 14px;font-size:20px;}
+#main h3{font-size:14px;font-weight:bold;margin:5px 0;color:#434344;}
+#main .col1{width:270px;}
+#main .col1 h1{font-size:28px;}
+#main .col2{border-left:1px solid #bcb6a8;border-right:1px solid #bcb6a8;padding-left:20px;width:260px;}
+#main .col3 p{margin:0;font-size:12px;}
+#main .col3 p a.more{color:#fff;float:right;font-size:11px;}
+
+table.content{margin-top:10px;}
+table.content td{ vertical-align:top; font-size:14px;}
+table.content td.middle{padding:0 10px;}
+table.contact p,
+table.contact td{font-size:12px;color:#5d6263;}
+table.contact .caption{width:90px;display:block;float:left;}
+table.contact .value{float:left;display:block;}
+table ul li{list-style:disc;color:#2b8990; font-size:18px;}
+table ul li .text{font-size:14px;color:#434344;}
+table ul.large li{margin-bottom:10px;list-style-position:outside;}
+table ul.large li .text {font-size:17px;}
+
+.contact dl{}
+.contact dd{margin:0;}
+.contact dd .caption{width:40px;display:block;float:left;}
+.contact form{margin-top:10px;}
+.contact form input,
+.contact form textarea{width:100%;}
+.contact form input.submit{width:90px;float:right;margin-top:5px;}
+
+.list_philosophy{}
+.list_philosophy li{padding:0 0 5px; font-size:15px; color:#2b8990; list-style:disc;}
+.list_philosophy li .text{color:#434344;}
+
+#footer{height:80px;color:#434344;font-size:12px;padding-top:5px; background:url('imgs/footer_bg.jpg') repeat-x;margin-top:20px;}
+#footer div{width:864px;margin:0 auto;}
+#footer a{color:#434344}
+#footer .links a{text-decoration:none;}
+#footer .email{background:url('imgs/ico_email.gif') no-repeat center left;float:right;padding-left:20px;}
